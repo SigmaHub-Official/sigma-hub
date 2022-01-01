@@ -1,7 +1,9 @@
 const express = require('express');
+const http = require('http');
 const app = express();
 const serverless = require('serverless-http');
-const router = express.Router();
+const hostname = '0.0.0.0';
+const port = 3030;
 
 console.log("Index.js is running");
 
@@ -17,6 +19,11 @@ app.set('views','./views');
 
 
 // Load home page
-app.get('/sigma-hub', function(req, res){
+app.get('*/sigma-hub', function(req, res){
     res.render("index");
+});
+
+
+app.listen(port, hostname, () =>{
+    console.log(`Server running at http://0.0.0.0:3030/`);
 });
