@@ -1,0 +1,35 @@
+{
+  "name": "sigma-hub",
+  "version": "1.0.0",
+  "description": "Sigma Hub is an IT service based company that solves your business problems effectively. Our services include Web development, SEO Service, Logo design, Automation testing, Manual Testing and Digital marketing",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "r": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkandan1/sigma-hub.git"
+  },
+  "keywords": [
+    "Sigma",
+    "Hub"
+  ],
+  "author": "Sigma Hub Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkandan1/sigma-hub/issues"
+  },
+  "homepage": "https://github.com/mkandan1/sigma-hub#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "netlify-cli": "^8.6.0",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2",
+    "serverless-http": "^2.7.0"
+  }
+}
