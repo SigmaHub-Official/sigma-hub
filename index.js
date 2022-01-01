@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Front display setup
 app.set('view engine', 'pug');
-app.set('views','./public/views');
+app.set('views','./views');
 
 
 
