@@ -17,6 +17,6 @@ app.set('views','./views');
 
 
 // Load home page
-app.get('*/sigma-hub', function(req, res){
+app.get('/', function(req, res){
     res.render("index");
 });
