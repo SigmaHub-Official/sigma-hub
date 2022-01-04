@@ -2,7 +2,12 @@
 
 <p> Sigma Hub is an IT based company which provide services like Web development, SEO services, Logo Design, Manual and Automation Testing, and Digital Marketing. </p>
 
-## Setup Instruction
+## NodeJs Setup Instruction
+
+### 1. Install NodeJs
+<p> Go to this web https://nodejs.org/en/ and click download button to download NodeJs for your Windows or Mac or Linux OS. Then, Install it.
+
+## Project Setup Instruction
 
 ### 1. Install GitHub
 
