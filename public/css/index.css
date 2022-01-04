@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    scroll-behavior: smooth;
+}
+
+#main-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#main-container > h1 {
+    position: absolute;
+    margin-bottom: 20vh;
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
+    font-size: min(max(1.4rem, 4vw), 32px);
+}

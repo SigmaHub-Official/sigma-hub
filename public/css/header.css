@@ -1,0 +1,44 @@
+/* Header style starts from here*/
+header {
+    box-shadow: 1px 1px 20px 2px #a1a1a1;
+    z-index: 1;
+    background-image: linear-gradient(90deg, #050305, #220c27);
+}
+
+.logo-wrapper > a > img {
+    width: min(max(6rem, 10vw), 105px) !important;
+    margin: 5px 5px 5px min(max(1.3rem, 10vw), 100px);
+}
+
+#tag-line {
+    display: block;
+    font-size: 8px;
+    letter-spacing: 1.7px;
+}
+
+.pe-5 {
+    margin-right: 100px;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+
+.menu {
+    color: #fff;
+}
+
+.navlist {
+    margin-right: 100px;
+}
+
+.navbar-nav > a {
+    color: #fff !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: min(max(0.1rem, 3vw), 15px);
+}
+
+.navbar-nav > a:hover {
+    color: orange !important;
+}

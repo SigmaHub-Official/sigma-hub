@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    scroll-behavior: smooth;
+}
+
+#error-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#error-container {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    margin-bottom: 20vh;
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
+    font-size: min(max(1.4rem, 4vw), 32px);
+}
+
+#error-container > p, .support-link, .home-link {
+    font-size: min(max(1rem, 3vw), 15px);
+    text-decoration: none;
+    margin-top: 2vh;
+}
