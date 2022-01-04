@@ -1,0 +1,12 @@
+#footer {
+    padding-top: 12px;
+    padding-left: 20px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: min(max(0.1rem, 3vw), 15px);
+    bottom: 0;
+    background-color: #0b021a;
+    color: #fff;
+}
